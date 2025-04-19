@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: qrafik-qr
+  datasource:
+    url: jdbc:postgresql://localhost:5432/qrafik
+    username: citizix_user
+    password: S3cret
+  jpa:
+    hibernate:
+      ddl-auto: update
